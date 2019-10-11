@@ -17,18 +17,8 @@
 <!-- style css -->
 <link rel="stylesheet" href="<?php echo base_url("plugin/assets/css/typography.css"); ?>">
 <link rel="stylesheet" href="<?php echo base_url("plugin/assets/css/default-css.css"); ?>">
-<link rel="stylesheet" href="<?php echo base_url("plugin/assets/css/styles.css"); ?>?v=0.7">
+<link rel="stylesheet" href="<?php echo base_url("plugin/assets/css/styles.css"); ?>?v=0.8">
 <link rel="stylesheet" href="<?php echo base_url("plugin/assets/css/responsive.css"); ?>?v=0.1">
 <link rel="stylesheet" href="<?php echo base_url("plugin/assets/css/datepicker.min.css"); ?>">
 <!-- modernizr css -->
 <script src="<?php echo base_url('plugin/assets/js/vendor/modernizr-2.8.3.min.js');?>"></script>
-
-<style>
-.alert {
-    position: relative;
-    padding: 10px 10px;
-    border: 1px solid transparent;
-    border-radius: .25rem;
-}
-</style>
-

@@ -11,11 +11,7 @@
 		</div>
 		<div class="col-10 col-sm-6 clearfix">
 			<div class="user-profile pull-right">
-				<img class="avatar user-thumb" src="<?php echo base_url("plugin/assets/images/author/avatar.png"); ?>" alt="avatar">
-				<h4 class="user-name dropdown-toggle" data-toggle="dropdown">Mentor<i class="fa fa-angle-down"></i></h4>
-				<div class="dropdown-menu">
-					<a class="dropdown-item" href="<?php echo base_url("logout"); ?>">Log Out</a>
-				</div>
+				<a class="user-name" style="color: #ffffff" href="<?php echo base_url("logout"); ?>">Log Out</a>
 			</div>
 		</div>
 	</div>
@@ -119,5 +115,11 @@
 .pagination-sm > li:last-child > span {
   border-top-right-radius: 3px;
   border-bottom-right-radius: 3px;
+}
+.alert {
+    position: relative;
+    padding: 10px 10px;
+    border: 1px solid transparent;
+    border-radius: .25rem;
 }
 </style>

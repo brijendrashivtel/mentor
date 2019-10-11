@@ -95,6 +95,8 @@
 .logo a {
     display: inline-block;
     max-width: 120px;
+	background: #ffffff;
+	border-radius: 12px
 }
 
 .metismenu >li >a {

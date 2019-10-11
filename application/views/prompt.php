@@ -28,24 +28,7 @@
     <!-- page container area start -->
     <div class="page-container">
         <!-- sidebar menu area start -->
-        <div class="sidebar-menu">
-            <div class="sidebar-header">
-				<div class="logo">
-					<!--<a href="dashboard.html"><img src="assets/images/icon/logo.png" alt="logo"></a>-->
-					<a href="dashboard.html">Logo Here</a>
-				</div>
-			</div>
-			
-			<div class="main-menu">
-	<div class="menu-inner">
-		<nav>
-		<?php include("leftmenu.php");?>
-		</nav>
-	</div>
-</div>
-            
-			
-        </div>
+        <?php include("leftmenu.php");?>
         <!-- sidebar menu area end -->
         <!-- main content area start -->
         <div class="main-content">
@@ -361,6 +344,8 @@
 		</div>
 	</div>
   <?php include("footer.php"); ?>
+<script>
+	$('#promptmenu').addClass('active');
+</script>
 </body>
-
 </html>
