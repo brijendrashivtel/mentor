@@ -12,8 +12,15 @@
 <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
 <!-- others plugins -->
 <script src="<?php echo base_url('plugin/assets/js/plugins.js');?>"></script>
-<script src="<?php echo base_url('plugin/assets/js/scripts.js');?>"></script>
+<script src="<?php echo base_url('plugin/assets/js/scripts.js');?>?v=0.1"></script>
 <!-- download sample csv -->
 <script src="<?php echo base_url('plugin/assets/js/datepicker.min.js');?>"></script>
 <script src="<?php echo base_url('plugin/assets/js/datepicker.en.js');?>"></script>
 <script src="<?php echo base_url('plugin/assets/js/sample-csv-download.js');?>?v=0.1"></script>
+<script>
+$(document).ready(function() {
+	$('.menu-inner').slimScroll({
+		height: 'auto'
+	});
+});
+</script>

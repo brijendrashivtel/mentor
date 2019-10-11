@@ -26,7 +26,7 @@
     /*================================
     slimscroll activation
     ==================================*/
-    /*$('.menu-inner').slimScroll({
+	/*$('.menu-inner').slimScroll({
         height: 'auto'
     });*/
    /*================================
